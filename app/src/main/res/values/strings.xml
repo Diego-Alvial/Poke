@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tarea7Poke</string>
+    <string name="mi_pokedex">Mi Pokedex</string>
+    <string name="id_maestro">Id maestro pokemon</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="hint_id">Ingrese Id</string>
+    <string name="hint_contrasena">Ingrese contraseña</string>
+    <string name="chkbx_recordar">Recordarme?</string>
+    <string name="img_logo1">Logo 1</string>
+    <string name="img_poke_btn">Ingresar</string>
+    <string name="hint_img_pokedex">Pokemon</string>
+    <string name="fitro_tipo">Filtrar por tipo: </string>
+    <string name="tipo_orden">Ordenar por: </string>
+    <string name="imagenes">Imágenes</string>
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="mis_pokemones">Mis pokemones</string>
+    <string name="salir">Salir</string>
+</resources>

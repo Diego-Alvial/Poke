@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_logo1"
+            android:layout_width="127dp"
+            android:layout_height="118dp"
+            android:contentDescription="@string/img_logo1"
+            app:srcCompat="@drawable/logo1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mi_pokedex"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/id_maestro"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_id_maestro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_id"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contrasena"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/et_contrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_contrasena"
+            android:importantForAutofill="no"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/chkbx_recordar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkbx_recordar"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:id="@+id/btn_iv_pokeball"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:clickable="true"
+            android:contentDescription="@string/img_poke_btn"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            app:srcCompat="@drawable/logo3" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
